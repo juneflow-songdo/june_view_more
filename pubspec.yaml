@@ -1,7 +1,7 @@
 name: june_view_more
 description: "JuneFlow Module"
 #publish_to: 'none'
-#repository: https://github.com/melodysdreamj/juneflow
+repository: https://github.com/juneflow-songdo/june_view_more
 
 version: 0.1.0
 
@@ -25,12 +25,12 @@ dependencies:
   modal_bottom_sheet: ^3.0.0 #@add
 
 dev_dependencies:
-  device_preview_module: ^0.1.0
+  device_preview_module: ^0.1.0 #@add
   flutter_test:
     sdk: flutter
-  hive_module: ^1.0.0+4
-  june_view: ^1.4.0+3
-  screenutil_module: ^1.0.0+2
+  hive_module: ^1.0.0+4 #@add
+  june_view: ^1.4.0+3 #@add
+  screenutil_module: ^1.0.0+2 #@add
 
 flutter:
   uses-material-design: true
