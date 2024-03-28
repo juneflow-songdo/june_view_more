@@ -3,7 +3,7 @@ description: "JuneFlow Module"
 #publish_to: 'none'
 repository: https://github.com/juneflow-songdo/june_view_more
 
-version: 0.1.2
+version: 0.1.3
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
@@ -35,7 +35,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   hive_module: ^1.0.0+4 #@add
-  june_view: ^1.4.2
+  june_view: ^1.4.2 #@add
   screenutil_module: ^1.0.0+2 #@add
 
 flutter:
