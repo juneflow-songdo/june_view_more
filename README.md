@@ -6,7 +6,16 @@
 </p>
 
 # june_view_more
-description here
+expandable view from june_view
+include 
+- [x] bottom navigation bar
+- [x] drawer
+- [x] tap bar
+- [x] bottom sheet
+- [x] dialog
+- [x] snackbar
+- [x] in app notification
+- [x] toast
 
 ##  Installation
 1. If the juneflow project doesn't exist, please create it by following [this guide](https://doc.juneflow.org/get-started).
