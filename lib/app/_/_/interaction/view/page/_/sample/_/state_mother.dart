@@ -21,12 +21,6 @@ increaseCountAction() {
   var state = SampleViewState(); // do not change this line
   state.counter = state.counter + 1;
   updateState(() {});
-
-  _test();
-}
-
-_test() {
-  print('test increase_count.dart');
 }
   /// end of automatically action generated code
   /// automatically generated event code - don't change this code
