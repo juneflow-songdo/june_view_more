@@ -17,18 +17,16 @@ mixin StateMother<T extends StatefulWidget> on State<T> {
 
   /// automatically generated action code - don't change this code
 
-  increaseCountAction() {
-    var state = SampleViewState(); // do not change this line
-    state.counter = state.counter + 1;
-    updateState(() {});
-  }
-
+increaseCountAction() {
+  var state = SampleViewState(); // do not change this line
+  state.counter = state.counter + 1;
+  updateState(() {});
+}
   /// end of automatically action generated code
   /// automatically generated event code - don't change this code
 
-  clickIncrementButtonEvent(BuildContext context) {
-    increaseCountAction();
-  }
-
+clickIncrementButtonEvent(BuildContext context) {
+  increaseCountAction();
+}
   /// end of automatically event generated code
 }

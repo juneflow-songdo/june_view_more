@@ -5,10 +5,9 @@ import '../build_my_app/_.dart';
 import 'device_preview_module/_.dart';
 import 'screenutil_module/_.dart';
 
-Future<void> buildApp(
-    {Widget? appHome, Function(BuildContext)? appCallAfterBuild}) async {
-  if (appHome != null) MyAppHome = appHome;
-  if (appCallAfterBuild != null) MyAppCallAfterBuild = appCallAfterBuild;
+Future<void> buildApp({Widget? appHome, Function(BuildContext)? appCallAfterBuild}) async {
+  if(appHome != null) MyAppHome = appHome;
+  if(appCallAfterBuild != null) MyAppCallAfterBuild = appCallAfterBuild;
   await readyBeforeRunApp();
   Widget childWidget = MyApp();
   childWidget = coverDevicePreviewModule(childWidget);

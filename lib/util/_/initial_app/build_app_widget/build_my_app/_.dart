@@ -4,6 +4,7 @@ import '../../../../config/_/router/_/_.dart';
 import '../../ready_functions/before_material_app/_.dart';
 import '../build_material_app/_.dart';
 
+
 Widget Function() buildMyApp(BuildContext context) {
   Widget Function() materialAppBuilder = MaterialAppBuilder(context);
 

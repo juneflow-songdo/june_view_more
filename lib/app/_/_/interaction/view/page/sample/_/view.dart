@@ -14,7 +14,6 @@ class SampleView extends StatefulWidget {
 
 class SampleViewState extends State<SampleView> with StateMother {
   int counter = 0;
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

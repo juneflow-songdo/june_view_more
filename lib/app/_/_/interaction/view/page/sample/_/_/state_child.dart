@@ -47,19 +47,17 @@ class StateChild extends SampleViewState {
 
   /// automatically generated action code - don't change this code
 
-  @override
-  increaseCountAction() {
-    counter = counter + 1;
-    setState(() {});
-  }
-
+@override
+increaseCountAction() {
+  counter = counter + 1;
+  setState(() {});
+}
   /// end of automatically action generated code
   /// automatically generated event code - don't change this code
 
-  @override
-  clickIncrementButtonEvent(BuildContext context) {
-    increaseCountAction();
-  }
-
+@override
+clickIncrementButtonEvent(BuildContext context) {
+  increaseCountAction();
+}
   /// end of automatically event generated code
 }
