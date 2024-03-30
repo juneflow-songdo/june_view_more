@@ -10,7 +10,6 @@ var openWidget = (BuildContext context) async {
   NewNotification(context);
 };
 
-
 class Usage extends StatefulWidget {
   const Usage({super.key});
 
@@ -79,4 +78,3 @@ main() async {
 
   return await buildApp();
 }
-

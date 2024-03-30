@@ -6,7 +6,6 @@ import 'package:flutter/material.dart';
 import '../../../../../../../../../../main.dart';
 import 'snackbar.dart';
 
-
 var openWidget = (BuildContext context) async {
   NewSnackBar(context, 3);
 };
@@ -79,4 +78,3 @@ main() async {
 
   return await buildApp();
 }
-

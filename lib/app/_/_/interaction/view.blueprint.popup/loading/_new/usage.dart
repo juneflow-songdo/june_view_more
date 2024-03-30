@@ -608,7 +608,6 @@ T _button99 = T("99", onTap: (BuildContext context) async {
 });
 
 main() async {
-
   MyAppHome = FunctionNoteKit(
     title: _noteName,
     button00: _button00,

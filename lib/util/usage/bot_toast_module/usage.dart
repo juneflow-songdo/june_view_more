@@ -7,7 +7,7 @@ String _noteName = "Note";
 
 T _button00 = T("00", onTap: (BuildContext context) async {
   ////////////////////////////////////////
-  var cancel = BotToast.showText(text:"xxxx");
+  var cancel = BotToast.showText(text: "xxxx");
   ////////////////////////////////////////
 });
 
@@ -606,7 +606,6 @@ T _button99 = T("99", onTap: (BuildContext context) async {
 });
 
 main() async {
-
   MyAppHome = FunctionNoteKit(
     title: _noteName,
     button00: _button00,

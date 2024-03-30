@@ -8,5 +8,5 @@ import '../../../../shared_params/_/material_app.dart';
 @ReadyBeforeMaterialApp()
 Future<void> readyForDevicePreviewModule(BuildContext context) async {
   MaterialAppParams.locale =
-  (!kIsWeb || kReleaseMode) ? null : DevicePreview.locale(context);
+      (!kIsWeb || kReleaseMode) ? null : DevicePreview.locale(context);
 }

@@ -605,7 +605,6 @@ S _button99 = S("99", onTap: (BuildContext context) async {
 });
 
 main() async {
-
   MyAppHome = ScaffoldViewNoteKit(
     title: _noteName,
     button00: _button00,

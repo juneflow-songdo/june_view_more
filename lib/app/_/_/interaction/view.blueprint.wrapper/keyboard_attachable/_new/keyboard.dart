@@ -17,8 +17,6 @@ import 'keyboard_widget/view.dart';
 // }
 
 main() async {
-  MyAppHome = FooterLayout(
-      footer: KeyboardWidgetView(),
-      child: NewView());
+  MyAppHome = FooterLayout(footer: KeyboardWidgetView(), child: NewView());
   return await buildApp();
 }

@@ -12,7 +12,8 @@ class KeyboardWidgetView extends StatefulWidget {
   State<KeyboardWidgetView> createState() => StateChild();
 }
 
-class KeyboardWidgetViewState extends State<KeyboardWidgetView> with StateMother {
+class KeyboardWidgetViewState extends State<KeyboardWidgetView>
+    with StateMother {
   @override
   Widget build(BuildContext context) {
     return Container(

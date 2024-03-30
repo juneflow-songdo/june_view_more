@@ -78,4 +78,3 @@ main() async {
 
   return await buildApp();
 }
-

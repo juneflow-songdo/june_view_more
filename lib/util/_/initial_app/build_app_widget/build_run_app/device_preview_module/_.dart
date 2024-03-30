@@ -6,8 +6,7 @@ import '../../../../../config/device_preview_module/params.dart';
 
 @CoverRunApp()
 Widget coverDevicePreviewModule(Widget widget) {
-
-  if(kIsWeb && !kReleaseMode) {
+  if (kIsWeb && !kReleaseMode) {
     return DevicePreview(
       enabled: when_start_web_with_device_preview,
       builder: (context) => widget,
