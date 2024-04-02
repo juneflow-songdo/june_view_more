@@ -1,9 +1,9 @@
 name: june_view_more
-description: "JuneFlow Module"
+description: "expandable view from june_view, include bottom navigation bar, drawer, tap bar, bottom sheet, dialog, snackbar, in app notification, toast etc."
 #publish_to: 'none'
 repository: https://github.com/juneflow-songdo/june_view_more
 
-version: 0.2.15
+version: 0.3.0
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
