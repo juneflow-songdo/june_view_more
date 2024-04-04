@@ -3,7 +3,7 @@ description: "expandable view from june_view, include bottom navigation bar, dra
 #publish_to: 'none'
 repository: https://github.com/juneflow-songdo/june_view_more
 
-version: 0.3.7
+version: 1.6.0
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
@@ -35,7 +35,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   hive_module: ^1.0.1 #@add
-  june_view: ^1.5.10 #@add
+  june_view: ^1.6.0 #@add
   screenutil_module: ^1.0.1 #@add
 
 flutter:
