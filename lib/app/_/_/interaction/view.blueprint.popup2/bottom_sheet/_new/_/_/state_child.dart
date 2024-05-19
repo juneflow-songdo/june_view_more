@@ -1,5 +1,4 @@
 import '../../../../../../../../../main.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../view.dart';
 
@@ -44,10 +43,10 @@ class StateChild extends NewViewState {
     return super.build(context);
   }
 
-  /// automatically generated action code - don't change this code
+/// automatically generated action code - don't change this code
 
-  /// end of automatically action generated code
-  /// automatically generated event code - don't change this code
+/// end of automatically action generated code
+/// automatically generated event code - don't change this code
 
-  /// end of automatically event generated code
+/// end of automatically event generated code
 }

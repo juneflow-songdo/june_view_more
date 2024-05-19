@@ -19,7 +19,7 @@ final GoRouter app_router = GoRouter(
     ),
   ],
   redirect: (BuildContext context, GoRouterState state) async {
-    await readyAfterMaterialApp(context);
+    readyAfterMaterialApp(context);
     return null;
   },
 );

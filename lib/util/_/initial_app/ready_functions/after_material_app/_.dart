@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../../../../../main.dart';
 
 
-Future<void> readyAfterMaterialApp(BuildContext context) async {
+void readyAfterMaterialApp(BuildContext context) {
 if (_done) return; _done = true;
 
 

@@ -14,10 +14,10 @@ mixin StateMother<T extends StatefulWidget> on State<T> {
     return CupertinoActivityIndicator().center();
   }
 
-  /// automatically generated action code - don't change this code
+/// automatically generated action code - don't change this code
 
-  /// end of automatically action generated code
-  /// automatically generated event code - don't change this code
+/// end of automatically action generated code
+/// automatically generated event code - don't change this code
 
-  /// end of automatically event generated code
+/// end of automatically event generated code
 }

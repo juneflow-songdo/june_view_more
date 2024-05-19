@@ -1,17 +1,15 @@
 import 'package:flutter/material.dart';
 
 import '../../../../../../../../main.dart';
-import '_/state_child.dart';
-import '_/state_mother.dart';
 
 class NewView extends StatefulWidget {
-  NewView({super.key});
+  const NewView({super.key});
 
   @override
-  State<NewView> createState() => StateChild();
+  State<NewView> createState() => _NewViewState();
 }
 
-class NewViewState extends State<NewView> with StateMother {
+class _NewViewState extends State<NewView> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -26,5 +24,5 @@ class NewViewState extends State<NewView> with StateMother {
 }
 
 main() async {
-  return buildApp(appHome: NewView().center());
+  return buildApp(appHome: NewView());
 }

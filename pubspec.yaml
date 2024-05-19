@@ -24,6 +24,7 @@ dependencies:
   bot_toast: #@add
   keyboard_attachable: #@add
   flutter_zoom_drawer: #@add
+  beamer: #@add
 
 dev_dependencies:
   bot_toast_module: #@add
